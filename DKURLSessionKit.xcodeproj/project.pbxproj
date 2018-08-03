@@ -14,6 +14,17 @@
 		0592FEFC2111A03300A21AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0592FEFA2111A03300A21AB8 /* LaunchScreen.storyboard */; };
 		0592FF072111A03300A21AB8 /* DKURLSessionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF062111A03300A21AB8 /* DKURLSessionKitTests.swift */; };
 		0592FF122111A03300A21AB8 /* DKURLSessionKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF112111A03300A21AB8 /* DKURLSessionKitUITests.swift */; };
+		0592FF202111A08200A21AB8 /* RESTfulMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF1F2111A08200A21AB8 /* RESTfulMethod.swift */; };
+		0592FF222111A1E700A21AB8 /* SessionRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF212111A1E700A21AB8 /* SessionRequestable.swift */; };
+		0592FF242111A2B900A21AB8 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF232111A2B900A21AB8 /* ParameterEncoder.swift */; };
+		0592FF262111A30000A21AB8 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF252111A30000A21AB8 /* NetworkError.swift */; };
+		0592FF282111A32800A21AB8 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF272111A32800A21AB8 /* URLParameterEncoder.swift */; };
+		0592FF2A2111A34300A21AB8 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF292111A34300A21AB8 /* JSONParameterEncoder.swift */; };
+		0592FF2C2111A4A300A21AB8 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF2B2111A4A300A21AB8 /* HTTPTask.swift */; };
+		0592FF2E2111A52600A21AB8 /* URLSessionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF2D2111A52600A21AB8 /* URLSessionRouter.swift */; };
+		0592FF302111A58B00A21AB8 /* URLSessionNetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF2F2111A58B00A21AB8 /* URLSessionNetworkLogger.swift */; };
+		0592FF352111BE9E00A21AB8 /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF342111BE9E00A21AB8 /* URLSessionManager.swift */; };
+		0592FF372111C15300A21AB8 /* URLSessionRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0592FF362111C15300A21AB8 /* URLSessionRequests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		0592FF0D2111A03300A21AB8 /* DKURLSessionKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKURLSessionKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0592FF112111A03300A21AB8 /* DKURLSessionKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKURLSessionKitUITests.swift; sourceTree = "<group>"; };
 		0592FF132111A03300A21AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0592FF1F2111A08200A21AB8 /* RESTfulMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTfulMethod.swift; sourceTree = "<group>"; };
+		0592FF212111A1E700A21AB8 /* SessionRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRequestable.swift; sourceTree = "<group>"; };
+		0592FF232111A2B900A21AB8 /* ParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoder.swift; sourceTree = "<group>"; };
+		0592FF252111A30000A21AB8 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0592FF272111A32800A21AB8 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		0592FF292111A34300A21AB8 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		0592FF2B2111A4A300A21AB8 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		0592FF2D2111A52600A21AB8 /* URLSessionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionRouter.swift; sourceTree = "<group>"; };
+		0592FF2F2111A58B00A21AB8 /* URLSessionNetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionNetworkLogger.swift; sourceTree = "<group>"; };
+		0592FF342111BE9E00A21AB8 /* URLSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
+		0592FF362111C15300A21AB8 /* URLSessionRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionRequests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,7 @@
 			children = (
 				0592FEF12111A03100A21AB8 /* AppDelegate.swift */,
 				0592FEF32111A03100A21AB8 /* ViewController.swift */,
+				0592FF312111A5B500A21AB8 /* URLSesseionKit */,
 				0592FEF52111A03100A21AB8 /* Main.storyboard */,
 				0592FEF82111A03300A21AB8 /* Assets.xcassets */,
 				0592FEFA2111A03300A21AB8 /* LaunchScreen.storyboard */,
@@ -123,6 +146,40 @@
 				0592FF132111A03300A21AB8 /* Info.plist */,
 			);
 			path = DKURLSessionKitUITests;
+			sourceTree = "<group>";
+		};
+		0592FF312111A5B500A21AB8 /* URLSesseionKit */ = {
+			isa = PBXGroup;
+			children = (
+				0592FF332111A5EA00A21AB8 /* URLSessionService */,
+				0592FF322111A5CB00A21AB8 /* Encoding */,
+				0592FF252111A30000A21AB8 /* NetworkError.swift */,
+				0592FF342111BE9E00A21AB8 /* URLSessionManager.swift */,
+				0592FF362111C15300A21AB8 /* URLSessionRequests.swift */,
+			);
+			path = URLSesseionKit;
+			sourceTree = "<group>";
+		};
+		0592FF322111A5CB00A21AB8 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				0592FF232111A2B900A21AB8 /* ParameterEncoder.swift */,
+				0592FF272111A32800A21AB8 /* URLParameterEncoder.swift */,
+				0592FF292111A34300A21AB8 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		0592FF332111A5EA00A21AB8 /* URLSessionService */ = {
+			isa = PBXGroup;
+			children = (
+				0592FF212111A1E700A21AB8 /* SessionRequestable.swift */,
+				0592FF1F2111A08200A21AB8 /* RESTfulMethod.swift */,
+				0592FF2B2111A4A300A21AB8 /* HTTPTask.swift */,
+				0592FF2D2111A52600A21AB8 /* URLSessionRouter.swift */,
+				0592FF2F2111A58B00A21AB8 /* URLSessionNetworkLogger.swift */,
+			);
+			path = URLSessionService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +313,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0592FF352111BE9E00A21AB8 /* URLSessionManager.swift in Sources */,
+				0592FF2A2111A34300A21AB8 /* JSONParameterEncoder.swift in Sources */,
 				0592FEF42111A03100A21AB8 /* ViewController.swift in Sources */,
+				0592FF222111A1E700A21AB8 /* SessionRequestable.swift in Sources */,
+				0592FF2C2111A4A300A21AB8 /* HTTPTask.swift in Sources */,
+				0592FF202111A08200A21AB8 /* RESTfulMethod.swift in Sources */,
+				0592FF262111A30000A21AB8 /* NetworkError.swift in Sources */,
+				0592FF372111C15300A21AB8 /* URLSessionRequests.swift in Sources */,
+				0592FF282111A32800A21AB8 /* URLParameterEncoder.swift in Sources */,
+				0592FF2E2111A52600A21AB8 /* URLSessionRouter.swift in Sources */,
+				0592FF242111A2B900A21AB8 /* ParameterEncoder.swift in Sources */,
 				0592FEF22111A03100A21AB8 /* AppDelegate.swift in Sources */,
+				0592FF302111A58B00A21AB8 /* URLSessionNetworkLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
